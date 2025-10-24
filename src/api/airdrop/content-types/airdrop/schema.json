@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "airdrops",
+  "info": {
+    "singularName": "airdrop",
+    "pluralName": "airdrops",
+    "displayName": "airdrop"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "files",
+        "videos",
+        "images"
+      ]
+    },
+    "actions": {
+      "type": "string"
+    },
+    "trust_score": {
+      "type": "integer"
+    },
+    "category": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "airdrop_status": {
+      "type": "string"
+    },
+    "total_distribution": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "join_link": {
+      "type": "string"
+    },
+    "estimated_value": {
+      "type": "string"
+    },
+    "tokens_per_claim": {
+      "type": "string"
+    },
+    "total_participants": {
+      "type": "string"
+    },
+    "social_links": {
+      "type": "json"
+    },
+    "listing_date": {
+      "type": "date"
+    },
+    "details": {
+      "type": "blocks"
+    },
+    "obj_id": {
+      "type": "uid"
+    }
+  }
+}
